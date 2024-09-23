@@ -10947,7 +10947,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/portada.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11314,3 +11314,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  object-fit: contain; /* Redimensiona la imagen para que se ajuste dentro del contenedor sin recortarse */
+  background-color: #f8f9fa; /* Color de fondo para rellenar el espacio vacío alrededor de la imagen */
+}
+
+
